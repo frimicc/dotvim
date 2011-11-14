@@ -14,18 +14,24 @@ runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 "Options
-"set autoindent                    "Preserve current indent on new lines
-"set textwidth=78                  "Wrap at this column
+set autoindent                    "Preserve current indent on new lines
+set textwidth=78                  "Wrap at this column
 set backspace=indent,eol,start    "Make backspaces delete sensibly
 set tabstop=4                     "Indentation levels every four columns
 set expandtab                     "Convert all tabs typed to spaces
 set shiftwidth=4                  "Indent/outdent by four columns
 set shiftround                    "Indent/outdent to nearest tabstop
-set number                        "Show line numbers
+"set number                        "Show line numbers
 set matchpairs+=<:>               "Allow % to bounce between angles too
 set tags=./tags,tags,~/projects/*/.tmtags,~/svnprojects/*/.tmtags "Use shared tags file
  
-"Folding
+" Searching options
+set hlsearch            "Enable search hit highlighting
+
+" Colors, yes we want them
+colorscheme torte
+
+"Folding disabled for now, it always folds wrong when opening a new file
 "set foldmethod=indent       "Lines with the same indent level form a fold 
 "au BufWinLeave * silent! mkview     "Save fold status on exit
 "au BufWinEnter * silent! loadview    "Restore fold status on load
@@ -36,13 +42,10 @@ set tags=./tags,tags,~/projects/*/.tmtags,~/svnprojects/*/.tmtags "Use shared ta
 "Syntax
 if has("syntax")
     syntax on               "Enable syntax highlighting.
-    set hlsearch            "Enable search hit highlighting
-    colorscheme delek
 endif
 
 "Filetypes
-filetype on
-filetype indent on
+filetype plugin indent on
 au BufNewFile,BufRead *.atom set filetype=xml
 au BufNewFile,BufRead *.fast set filetype=xml
 au BufNewFile,BufRead *.cgi set filetype=perl
@@ -63,7 +66,6 @@ noremap  g
 
 "Plugins
 runtime macros/matchit.vim
-filetype plugin on
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
