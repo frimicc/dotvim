@@ -5,27 +5,27 @@
 [submodule "bundle/ack"]
     ignore = dirty
 	path = bundle/ack
-	url = http://github.com/mileszs/ack.vim
+	url = git://github.com/mileszs/ack.vim.git
     ignore = dirty
 [submodule "bundle/surround"]
 	path = bundle/surround
-	url = http://github.com/tpope/vim-surround
+	url = git://github.com/tpope/vim-surround.git
     ignore = dirty
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
-	url = http://github.com/ddollar/nerdcommenter
+	url = git://github.com/ddollar/nerdcommenter.git
     ignore = dirty
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = http://github.com/ervandew/supertab
+	url = git://github.com/ervandew/supertab.git
     ignore = dirty
 [submodule "bundle/taglist"]
 	path = bundle/taglist
-	url = http://github.com/vim-scripts/taglist.vim
+	url = git://github.com/vim-scripts/taglist.vim.git
     ignore = dirty
 [submodule "bundle/ZoomWin"]
 	path = bundle/ZoomWin
-	url = https://github.com/vim-scripts/ZoomWin
+	url = git://github.com/vim-scripts/ZoomWin.git
     ignore = dirty
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
@@ -33,25 +33,25 @@
     ignore = dirty
 [submodule "bundle/perl-support"]
 	path = bundle/perl-support
-	url = https://github.com/vim-scripts/perl-support.vim
+	url = git://github.com/vim-scripts/perl-support.vim.git
     ignore = dirty
 [submodule "bundle/vcscommand"]
 	path = bundle/vcscommand
-	url = https://github.com/vim-scripts/vcscommand.vim
+	url = git://github.com/vim-scripts/vcscommand.vim.git
     ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
     ignore = dirty
 [submodule "bundle/indent-object"]
 	path = bundle/indent-object
-	url = https://github.com/michaeljsmith/vim-indent-object
+	url = git://github.com/michaeljsmith/vim-indent-object.git
     ignore = dirty
 [submodule "bundle/markdown"]
 	path = bundle/markdown
-	url = https://github.com/tpope/vim-markdown
+	url = git://github.com/tpope/vim-markdown.git
     ignore = dirty
 [submodule "bundle/xmledit"]
 	path = bundle/xmledit
-	url = https://github.com/sukima/xmledit.git
+	url = git://github.com/sukima/xmledit.git
     ignore = dirty
