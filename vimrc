@@ -11,6 +11,7 @@ set nocompatible
 
 "Start up pathogen
 runtime bundle/pathogen/autoload/pathogen.vim
+call pathogen#infect()
 
 "Options
 "set autoindent                    "Preserve current indent on new lines

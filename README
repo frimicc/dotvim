@@ -23,6 +23,11 @@ To pull down changes on any other systems:
     git pull
     git submodule update --init
 
+To update all submodules (aka all plugins) in the master copy of the repository:
+
+    git submodule foreach git pull origin master
+
+
 Many thanks to Drew Neil.
 http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
 
