@@ -6,4 +6,17 @@ Create symlink:
 
     ln -s ~/.vim/vimrc ~/.vimrc
 
+Make changes to master branch and add, commit, and push them to GitHub.
+
+    git add .
+    git commit
+    git push
+
+To pull down changes on any other systems:
+
+    git pull
+    git submodule update --init
+
+Many thanks to Drew Neil.
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
 
