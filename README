@@ -9,8 +9,14 @@ Create symlink:
 Make changes to master branch and add, commit, and push them to GitHub.
 
     git add .
-    git commit
+    git commit -m "Change blah."
     git push
+
+To add more plugins (from GitHub repositories):
+
+    git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+    git add .
+    git commit -m "Install Fugitive.vim bundle as a submodule."
 
 To pull down changes on any other systems:
 
