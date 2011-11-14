@@ -9,6 +9,9 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+"Start up pathogen
+runtime bundle/pathogen/autoload/pathogen.vim
+
 "Options
 "set autoindent                    "Preserve current indent on new lines
 "set textwidth=78                  "Wrap at this column
