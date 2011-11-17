@@ -55,3 +55,6 @@
 	path = bundle/xmledit
 	url = git://github.com/sukima/xmledit.git
     ignore = dirty
+[submodule "bundle/dtl"]
+	path = bundle/dtl
+	url = git://github.com/frimicc/vim-hwp-dtl.git
