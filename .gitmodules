@@ -58,3 +58,6 @@
 [submodule "bundle/dtl"]
 	path = bundle/dtl
 	url = git://github.com/frimicc/vim-hwp-dtl.git
+[submodule "bundle/scratch"]
+	path = bundle/scratch
+	url = git://github.com/vim-scripts/scratch.vim.git
