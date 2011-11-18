@@ -21,7 +21,8 @@ set tabstop=4                     "Indentation levels every four columns
 set expandtab                     "Convert all tabs typed to spaces
 set shiftwidth=4                  "Indent/outdent by four columns
 set shiftround                    "Indent/outdent to nearest tabstop
-"set number                        "Show line numbers
+"set number                        "Show absolute line numbers
+set rnu                           "Show relative line numbers
 set matchpairs+=<:>               "Allow % to bounce between angles too
 set tags=./tags,tags,~/projects/*/.tmtags,~/svnprojects/*/.tmtags "Use shared tags file
  
@@ -75,6 +76,8 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType perl set omnifunc=perlcomplete#CompletePerl
 autocmd FileType c set omnifunc=ccomplete#Complete
+
+let g:SuperTabDefaultCompletionType = "context"
 
 " CDC = Change to Directory of Current file
 command CDC cd %:p:h
