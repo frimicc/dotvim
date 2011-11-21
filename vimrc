@@ -30,7 +30,7 @@ set tags=./tags,tags,~/projects/*/.tmtags,~/svnprojects/*/.tmtags "Use shared ta
 set hlsearch            "Enable search hit highlighting
 
 " Colors, yes we want them
-colorscheme torte
+colorscheme delek
 
 "Folding disabled for now, it always folds wrong when opening a new file
 "set foldmethod=indent       "Lines with the same indent level form a fold 
