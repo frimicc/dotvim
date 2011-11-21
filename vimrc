@@ -28,6 +28,8 @@ set tags=./tags,tags,~/projects/*/.tmtags,~/svnprojects/*/.tmtags "Use shared ta
  
 " Searching options
 set hlsearch            "Enable search hit highlighting
+set incsearch           "Enable incremental search
+
 
 " Colors, yes we want them
 colorscheme delek
