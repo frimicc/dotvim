@@ -80,6 +80,7 @@ autocmd FileType perl set omnifunc=perlcomplete#CompletePerl
 autocmd FileType c set omnifunc=ccomplete#Complete
 
 let g:SuperTabDefaultCompletionType = "context"
+let g:Perl_Perltidy  = 'on'
 
 " CDC = Change to Directory of Current file
 command CDC cd %:p:h
