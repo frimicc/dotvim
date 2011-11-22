@@ -14,7 +14,7 @@ runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 "Options
-set autoindent                    "Preserve current indent on new lines
+"set autoindent                    "Preserve current indent on new lines
 set textwidth=78                  "Wrap at this column
 set backspace=indent,eol,start    "Make backspaces delete sensibly
 set tabstop=4                     "Indentation levels every four columns
@@ -53,6 +53,8 @@ au BufNewFile,BufRead *.atom set filetype=xml
 au BufNewFile,BufRead *.fast set filetype=xml
 au BufNewFile,BufRead *.cgi set filetype=perl
 au BufNewFile,BufRead *.t set filetype=perl
+au BufNewFile,BufRead *.tt set filetype=tt2html
+au BufNewFile,BufRead *.tt2 set filetype=tt2html
 
 "Abbreviations
 iab phbp  #! /usr/gnu/bin/perl -w      

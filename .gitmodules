@@ -61,3 +61,6 @@
 [submodule "bundle/scratch"]
 	path = bundle/scratch
 	url = git://github.com/vim-scripts/scratch.vim.git
+[submodule "bundle/perl-syntax"]
+	path = bundle/perl-syntax
+	url = git://github.com/petdance/vim-perl.git
