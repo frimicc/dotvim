@@ -82,6 +82,7 @@ au BufNewFile,BufRead *.cgi set filetype=perl
 au BufNewFile,BufRead *.t set filetype=perl
 au BufNewFile,BufRead *.tt set filetype=tt2html
 au BufNewFile,BufRead *.tt2 set filetype=tt2html
+au BufNewFile,BufRead *.gml set filetype=xml
 
 "Abbreviations
 iab phbp  #! /usr/gnu/bin/perl -w      
