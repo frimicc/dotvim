@@ -64,3 +64,6 @@
 [submodule "bundle/perl-syntax"]
 	path = bundle/perl-syntax
 	url = git://github.com/petdance/vim-perl.git
+[submodule "bundle/unimpaired"]
+	path = bundle/unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
