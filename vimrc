@@ -43,7 +43,7 @@ set matchpairs+=<:>               "Allow % to bounce between angles too
 set showmatch                     "Automatically bounce to matching paren when insert
 let mapleader=","                 "Use comma instead of backslash for commands
 "Use shared tags file
-set tags=./tags,tags,~/projects/*/.tmtags,~/svnprojects/*/.tmtags 
+set tags=./tags,tags,./jstags,jstags,~/projects/*/.tmtags,~/svnprojects/*/.tmtags 
 "nnoremap ; :                      "Use ; exactly like :
  
 " Searching options
@@ -114,3 +114,4 @@ let g:Perl_Perltidy  = 'on'
 
 " CDC = Change to Directory of Current file
 command CDC cd %:p:h
+command TBT TagbarToggle
