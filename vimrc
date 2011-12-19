@@ -115,3 +115,9 @@ let g:Perl_Perltidy  = 'on'
 " CDC = Change to Directory of Current file
 command CDC cd %:p:h
 command TBT TagbarToggle
+map <Leader>t :TagbarToggle<Esc>
+
+" HighWire Mappings
+map <Leader>s :!saveall<Esc>
+map <Leader>u :!updateall<Esc>
+
