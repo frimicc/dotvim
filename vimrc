@@ -116,6 +116,8 @@ let g:Perl_Perltidy  = 'on'
 command CDC cd %:p:h
 command TBT TagbarToggle
 map <Leader>t :TagbarToggle<Esc>
+map <Leader>o :!open "%"<Esc>
+map <Leader>q :cclose<Esc>
 
 " HighWire Mappings
 map <Leader>s :!saveall<Esc>
