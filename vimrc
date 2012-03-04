@@ -59,9 +59,19 @@ vnoremap / /\v
 nnoremap <leader><space> :noh<cr>
 
 " Colors, yes we want them
-"colorscheme delek
-set background=dark
-colorscheme solarized
+if $HOSTTYPE=="powerpc"
+    set background=light
+    colorscheme solarized
+endif
+
+if $HOSTTYPE=="intel-mac"
+    set background=dark
+    colorscheme solarized
+endif
+
+if $HOSTTYPE=="sun4"
+    colorscheme delek
+endif
 
 "Folding disabled for now, it always folds wrong when opening a new file
 "set foldmethod=indent       "Lines with the same indent level form a fold 
