@@ -56,7 +56,7 @@ set gdefault                       "Assume we want to change all matches on a li
 nnoremap / /\v
 vnoremap / /\v
 "Make it easy to turn off hit highlighting
-nnoremap <leader><space> :noh<cr>
+nnoremap <leader><space> :nohlsearch<cr>
 
 " Colors, yes we want them
 if $HOSTTYPE=="powerpc"
