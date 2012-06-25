@@ -1,0 +1,12 @@
+BEGIN {
+    if ( $ENV{PERL_LIB} =~ /\:/ ) {
+        unshift( @INC, split( /\:/, $ENV{PERL_LIB} ) );
+    }
+    elsif ( $ENV{PERL_LIB} ) {
+        unshift( @INC, $ENV{PERL_LIB} );
+    }
+    else {
+        unshift( @INC, '/highwire/local/journalsys/lib/perl5' );
+    }
+}
+
