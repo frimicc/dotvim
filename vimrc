@@ -131,6 +131,7 @@ map <Leader>t :TagbarToggle<Esc>
 map <Leader>o :!open "%"<Esc>
 map <Leader>q :cclose<Esc>
 map <Leader>pt mp1G:%!perltidy<Esc>
+map <Leader>b :b #<Esc>
 
 " HighWire Mappings
 map <Leader>s :!saveall<Esc>
