@@ -76,6 +76,3 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
-[submodule "bundle/taskpaper"]
-	path = bundle/taskpaper
-	url = git://github.com/davidoc/taskpaper.vim.git
