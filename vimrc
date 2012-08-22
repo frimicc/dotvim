@@ -23,7 +23,9 @@ set formatoptions=tcqrn1          "Auto-wrap text and comments, use 'gq' to refl
                                   " word
 
 "Look & Feel
-set relativenumber                "Show relative line numbers
+if version >=703
+    set relativenumber                "Show relative line numbers
+endif
 set showmode                      "Show insert/normal mode indicator
 set showcmd                       "Show selection in statusline
 set wildmenu                      "Show options when tabbing in ex
@@ -37,7 +39,9 @@ set encoding=utf-8                "Encoding is always horrible, maybe this will 
 
 "Behavior
 set backspace=indent,eol,start    "Make backspaces delete sensibly
-set undofile                      "Create undo files for persistent undo
+if version >=703
+    set undofile                      "Create undo files for persistent undo
+endif
 set hidden                        "Don't remove buffers, hide them
 set matchpairs+=<:>               "Allow % to bounce between angles too
 set showmatch                     "Automatically bounce to matching paren when insert
