@@ -120,6 +120,10 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType perl set omnifunc=perlcomplete#CompletePerl
 autocmd FileType c set omnifunc=ccomplete#Complete
+autocmd FileType java set omnifunc=javacomplete#CompleteJava
+autocmd FileType java silent! compiler javac
+autocmd FileType java set makeprg=javac\ -d\ ../classes\ %
+autocmd FileType java set errorformat=%A:%f:%l:\ %m,%-Z%p^,%-C%.%#
 
 let g:SuperTabDefaultCompletionType = "context"
 let g:Perl_Perltidy  = 'on'
@@ -132,6 +136,8 @@ map <Leader>o :!open "%"<Esc>
 map <Leader>q :cclose<Esc>
 map <Leader>pt mp1G:%!perltidy<Esc>
 map <Leader>b :b #<Esc>
+map <Leader>rj :!echo %\|awk -F. '{print $1}'\|xargs java<CR>
+map <Leader>rt :!echo %\|awk -F. '{print $1}'\|xargs java org.junit.runner.JUnitCore<CR>
 
 " HighWire Mappings
 map <Leader>s :!saveall<Esc>
