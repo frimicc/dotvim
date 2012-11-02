@@ -142,6 +142,7 @@ map <Leader>pt mp1G:%!perltidy<Esc>
 map <Leader>b :b #<Esc>
 map <Leader>rj :!echo %\|awk -F. '{print $1}'\|xargs java<CR>
 map <Leader>rt :!echo %\|awk -F. '{print $1}'\|xargs java org.junit.runner.JUnitCore<CR>
+map <Leader>x :% !xmllint --format -<CR>
 
 " HighWire Mappings
 map <Leader>s :!saveall<Esc>
