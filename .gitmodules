@@ -78,4 +78,4 @@
 	url = git://github.com/vim-perl/vim-perl.git
 [submodule "bundle/taskpaper"]
 	path = bundle/taskpaper
-	url = git@github.com:frimicc/taskpaper.vim.git
+	url = git://github.com/davidoc/taskpaper.vim.git
