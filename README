@@ -1,11 +1,18 @@
 Installation:
 
+1. Clone the repository to your home directory:
     git clone git://github.com/frimicc/dotvim.git ~/.vim
 
-Create symlink:
-
+2. Create a symlink for the default .vimrc location:
     ln -s ~/.vim/vimrc ~/.vimrc
 
+3. Load the submodules (all the bundles):
+    cd ~/.vim
+    git submodule update --init
+
+That should be it! You should be ready to use vim and enjoy my dotvim options.
+
+------
 Make changes to master branch and add, commit, and push them to GitHub.
 
     git add .
