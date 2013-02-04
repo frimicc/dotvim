@@ -10,7 +10,7 @@ call pathogen#infect()
 set modelines=0                   "Prevent modelines security problems
 
 "Indenting & Tabs
-set textwidth=78                  "Wrap at this column
+set textwidth=115                  "Wrap at this column
 set wrap                          "Default to word wrapped text
 set autoindent                    "Preserve current indent on new lines
 set tabstop=4                     "Indentation levels every four columns
