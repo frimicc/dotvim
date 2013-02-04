@@ -34,7 +34,7 @@ set cursorline                    "Show the cursor position in status line
 set ttyfast                       "Redraw the screen more
 set ruler                         "Show ruler in status line
 set laststatus=2                  "Always show status line
-set scrolloff=1                   "When scrolling include 3 lines from prev page
+set scrolloff=1                   "When scrolling include 1 lines from prev page
 set encoding=utf-8                "Encoding is always horrible, maybe this will help
 
 "Behavior
