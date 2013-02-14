@@ -79,3 +79,6 @@
 [submodule "bundle/taskpaper"]
 	path = bundle/taskpaper
 	url = git://github.com/davidoc/taskpaper.vim.git
+[submodule "bundle/json"]
+	path = bundle/json
+	url = git://github.com/elzr/vim-json.git
