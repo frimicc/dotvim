@@ -85,6 +85,8 @@ endif
 "let g:xml_syntax_folding = 1   "Set syntax folding for XML
 "let g:javaScript_fold = 1      "Set syntax folding for javascript
 
+let g:tagbar_type_markdown = { 'ctagstype' : 'markdown', 'kinds' : [ 'h:headings' ], 'sort' : 0 }
+
 "Syntax
 if has("syntax")
     syntax on               "Enable syntax highlighting.
@@ -99,6 +101,7 @@ au BufNewFile,BufRead *.t set filetype=perl
 au BufNewFile,BufRead *.tt set filetype=tt2html
 au BufNewFile,BufRead *.tt2 set filetype=tt2html
 au BufNewFile,BufRead *.gml set filetype=xml
+au BufNewFile,BufRead *.mdwn set filetype=markdown
 
 "Abbreviations
 iab phbp  #! /usr/gnu/bin/perl -w      
