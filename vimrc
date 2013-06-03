@@ -69,7 +69,8 @@ if $HOSTTYPE=="powerpc"
 endif
 
 if $HOSTTYPE=="intel-mac"
-    set background=dark
+    " set background=dark
+    set background=light
     colorscheme solarized
 endif
 
