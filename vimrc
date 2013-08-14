@@ -103,6 +103,7 @@ au BufNewFile,BufRead *.tt set filetype=tt2html
 au BufNewFile,BufRead *.tt2 set filetype=tt2html
 au BufNewFile,BufRead *.gml set filetype=xml
 au BufNewFile,BufRead *.mdwn set filetype=markdown
+AddShebangPattern! perl ^#!.*/bin/env.\+perl\>
 
 "Abbreviations
 iab phbp  #! /usr/gnu/bin/perl -w      
