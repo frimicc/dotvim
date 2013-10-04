@@ -137,6 +137,7 @@ autocmd FileType java set errorformat=%A:%f:%l:\ %m,%-Z%p^,%-C%.%#
 let g:SuperTabDefaultCompletionType = "context"
 let g:Perl_Perltidy  = 'on'
 let g:ctrlp_working_path_mode = 'wr'
+let g:ctrlp_by_filename = 1
 
 " CDC = Change to Directory of Current file
 command CDC cd %:p:h
