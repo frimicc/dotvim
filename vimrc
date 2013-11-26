@@ -63,20 +63,21 @@ vnoremap / /\v
 nnoremap <leader><space> :nohlsearch<cr>
 
 " Colors, yes we want them
-if $HOSTTYPE=="powerpc"
-    set background=light
-    colorscheme solarized
-endif
+colorscheme desert
+" if $HOSTTYPE=="powerpc"
+"     set background=light
+"     colorscheme solarized
+" endif
 
-if $HOSTTYPE=="intel-mac"
-    " set background=dark
-    set background=light
-    colorscheme solarized
-endif
+" if $HOSTTYPE=="intel-mac"
+"     " set background=dark
+"     set background=light
+"     colorscheme solarized
+" endif
 
-if $HOSTTYPE=="sun4"
-    colorscheme delek
-endif
+" if $HOSTTYPE=="sun4"
+"     colorscheme delek
+" endif
 
 "Folding disabled for now, it always folds wrong when opening a new file
 "set foldmethod=indent       "Lines with the same indent level form a fold 
@@ -117,6 +118,12 @@ iab pmod  :r ~/.code_templates/perl_module.pm
 
 "Mappings
 noremap  g
+
+"Map [[ and ]] to work for perl functions
+map [[ ?{<CR>w99[{
+map ][ /<BS><BS>}<CR>b99]}
+map ]] j0[[%/<BS><BS>{<CR>
+map [] k$][%?}<CR>
 
 "Plugins
 runtime macros/matchit.vim
