@@ -63,7 +63,7 @@ vnoremap / /\v
 nnoremap <leader><space> :nohlsearch<cr>
 
 " Colors, yes we want them
-colorscheme desert
+colorscheme delek
 " if $HOSTTYPE=="powerpc"
 "     set background=light
 "     colorscheme solarized
