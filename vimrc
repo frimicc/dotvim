@@ -64,6 +64,9 @@ nnoremap <leader><space> :nohlsearch<cr>
 
 " Colors, yes we want them
 colorscheme delek
+" make search highlights readable
+hi Search ctermfg=White ctermbg=Blue guibg=Blue guifg=NONE
+
 " if $HOSTTYPE=="powerpc"
 "     set background=light
 "     colorscheme solarized
