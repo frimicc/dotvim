@@ -62,25 +62,8 @@ vnoremap / /\v
 "Make it easy to turn off hit highlighting
 nnoremap <leader><space> :nohlsearch<cr>
 
-" Colors, yes we want them
-colorscheme delek
-" make search highlights readable
-hi Search ctermfg=White ctermbg=Blue guibg=Blue guifg=NONE
-
-" if $HOSTTYPE=="powerpc"
-"     set background=light
-"     colorscheme solarized
-" endif
-
-" if $HOSTTYPE=="intel-mac"
-"     " set background=dark
-"     set background=light
-"     colorscheme solarized
-" endif
-
-" if $HOSTTYPE=="sun4"
-"     colorscheme delek
-" endif
+" Use modified delek to have easier to read search highlighting
+colorscheme delak
 
 "Folding disabled for now, it always folds wrong when opening a new file
 "set foldmethod=indent       "Lines with the same indent level form a fold 
