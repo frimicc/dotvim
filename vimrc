@@ -49,7 +49,7 @@ let mapleader=","                 "Use comma instead of backslash for commands
 "Use shared tags file
 set tags=./tags,tags,./jstags,jstags,~/src/*/tags
 "nnoremap ; :                      "Use ; exactly like :
- 
+
 " Searching options
 set hlsearch                       "Enable search hit highlighting
 set incsearch                      "Enable incremental search
@@ -66,7 +66,7 @@ nnoremap <leader><space> :nohlsearch<cr>
 colorscheme delak
 
 "Folding disabled for now, it always folds wrong when opening a new file
-"set foldmethod=indent       "Lines with the same indent level form a fold 
+"set foldmethod=indent       "Lines with the same indent level form a fold
 "au BufWinLeave * silent! mkview     "Save fold status on exit
 "au BufWinEnter * silent! loadview    "Restore fold status on load
 "let g:perl_fold = 1            "Set syntax folding for perl
@@ -93,12 +93,12 @@ au BufNewFile,BufRead *.mdwn set filetype=markdown
 AddShebangPattern! perl ^#!.*/bin/env.\+perl\>
 
 "Abbreviations
-iab phbp  #! /usr/gnu/bin/perl -w      
+iab phbp  #! /usr/gnu/bin/perl -w
 iab pdbg  use Data::Dumper 'Dumper';warn Dumper [];hi
-iab pbmk  use Benchmark qw( cmpthese );cmpthese -10, {};O     
-iab pusc  use Smart::Comments;### 
+iab pbmk  use Benchmark qw( cmpthese );cmpthese -10, {};O
+iab pusc  use Smart::Comments;###
 iab putm  use Test::More qw( no_plan );
- 
+
 iab papp  :r ~/.code_templates/perl_application.pl
 iab pmod  :r ~/.code_templates/perl_module.pm
 
