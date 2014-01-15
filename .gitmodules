@@ -94,3 +94,6 @@
 [submodule "bundle/DeleteTrailingWhitespace"]
 	path = bundle/DeleteTrailingWhitespace
 	url = https://github.com/vim-scripts/DeleteTrailingWhitespace.git
+[submodule "bundle/cql"]
+	path = bundle/cql
+	url = https://github.com/elubow/cql-vim.git
