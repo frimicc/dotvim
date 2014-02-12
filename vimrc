@@ -132,6 +132,7 @@ let g:SuperTabDefaultCompletionType = "context"
 let g:Perl_Perltidy  = 'on'
 let g:ctrlp_working_path_mode = 'wr'
 let g:ctrlp_by_filename = 1
+let g:DeleteTrailingWhitespace_Action = 'ask'
 
 " CDC = Change to Directory of Current file
 command CDC cd %:p:h
