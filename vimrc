@@ -31,7 +31,7 @@ set showcmd                       "Show selection in statusline
 set wildmenu                      "Show options when tabbing in ex
 set wildmode=list:longest         "Show the list with the longest match first
 set cursorline                    "Show the cursor position in status line
-set ttyfast                       "Redraw the screen more
+" set ttyfast                       "Redraw the screen more
 set ruler                         "Show ruler in status line
 set laststatus=2                  "Always show status line
 set scrolloff=1                   "When scrolling include 1 lines from prev page
@@ -47,7 +47,7 @@ set matchpairs+=<:>               "Allow % to bounce between angles too
 set showmatch                     "Automatically bounce to matching paren when insert
 let mapleader=","                 "Use comma instead of backslash for commands
 "Use shared tags file
-set tags=./tags,tags,./jstags,jstags,~/src/*/tags
+set tags=./tags,tags,./jstags,jstags
 "nnoremap ; :                      "Use ; exactly like :
 
 " Searching options
