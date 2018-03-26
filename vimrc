@@ -62,8 +62,8 @@ vnoremap / /\v
 "Make it easy to turn off hit highlighting
 nnoremap <leader><space> :nohlsearch<cr>
 
-" Use modified delek to have easier to read search highlighting
-colorscheme delak
+" Use modified delek named delak to have easier to read search highlighting
+colorscheme slate
 
 "Folding disabled for now, it always folds wrong when opening a new file
 "set foldmethod=indent       "Lines with the same indent level form a fold
