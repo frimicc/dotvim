@@ -151,3 +151,6 @@ map <Leader>x :% !xmllint --format -<CR>
 map <Leader>s :!saveall<Esc>
 map <Leader>u :!updateall<Esc>
 
+" GUI
+set guifont=Source\ Code\ Variable:h16
+
