@@ -1,7 +1,7 @@
 Installation:
 
 1. Clone the repository to your home directory:
-    git clone git://github.com/frimicc/dotvim.git ~/.vim
+    git clone git@github.com:frimicc/dotvim.git ~/.vim
 
 2. Create a symlink for the default .vimrc location:
     ln -s ~/.vim/vimrc ~/.vimrc
