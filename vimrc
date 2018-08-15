@@ -63,7 +63,8 @@ vnoremap / /\v
 nnoremap <leader><space> :nohlsearch<cr>
 
 " Use modified delek named delak to have easier to read search highlighting
-colorscheme slate
+" Use modified slate named slat to have easier to read search highlighting
+colorscheme slat
 
 "Folding disabled for now, it always folds wrong when opening a new file
 "set foldmethod=indent       "Lines with the same indent level form a fold
