@@ -153,5 +153,5 @@ map <Leader>s :!saveall<Esc>
 map <Leader>u :!updateall<Esc>
 
 " GUI
-set guifont=Source\ Code\ Variable:h16
+set guifont=Source\ Code\ Pro:h16
 
