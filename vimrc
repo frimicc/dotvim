@@ -47,7 +47,7 @@ set matchpairs+=<:>               "Allow % to bounce between angles too
 set showmatch                     "Automatically bounce to matching paren when insert
 let mapleader=","                 "Use comma instead of backslash for commands
 "Use shared tags file
-set tags=./tags,tags,./jstags,jstags
+set tags=./tags,tags,./jstags,jstags,./tags;
 "nnoremap ; :                      "Use ; exactly like :
 
 " Searching options
