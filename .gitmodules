@@ -103,3 +103,6 @@
 [submodule "bundle/swift"]
 	path = bundle/swift
 	url = https://github.com/keith/swift.vim.git
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = git@github.com:derekwyatt/vim-scala.git
