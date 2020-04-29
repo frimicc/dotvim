@@ -153,5 +153,6 @@ map <Leader>s :!saveall<Esc>
 map <Leader>u :!updateall<Esc>
 
 " GUI
-set guifont=Source\ Code\ Pro:h16
+set macligatures
+set guifont=JetBrainsMono-Regular:h16
 
