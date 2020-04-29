@@ -153,6 +153,8 @@ map <Leader>s :!saveall<Esc>
 map <Leader>u :!updateall<Esc>
 
 " GUI
-set macligatures
-set guifont=JetBrainsMono-Regular:h16
+if has("gui_running")
+    set macligatures
+    set guifont=JetBrainsMono-Regular:h16
+endif
 
