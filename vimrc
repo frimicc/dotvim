@@ -46,8 +46,8 @@ set hidden                        "Don't remove buffers, hide them
 set matchpairs+=<:>               "Allow % to bounce between angles too
 set showmatch                     "Automatically bounce to matching paren when insert
 let mapleader=","                 "Use comma instead of backslash for commands
-"Use shared tags file
-set tags=./tags,tags,./jstags,jstags,./tags;
+"Use closest tags file
+set tags=tags,./tags
 "nnoremap ; :                      "Use ; exactly like :
 
 " Searching options
@@ -75,6 +75,7 @@ colorscheme slat
 "let g:javaScript_fold = 1      "Set syntax folding for javascript
 
 let g:tagbar_type_markdown = { 'ctagstype' : 'markdown', 'kinds' : [ 'h:headings' ], 'sort' : 0 }
+let g:tagbar_ctags_bin = "/usr/local/bin/ctags"
 
 "Syntax
 if has("syntax")
@@ -130,11 +131,16 @@ autocmd FileType java silent! compiler javac
 autocmd FileType java set makeprg=javac\ -d\ ../classes\ %
 autocmd FileType java set errorformat=%A:%f:%l:\ %m,%-Z%p^,%-C%.%#
 
+let g:DeleteTrailingWhitespace_Action = 'ask'
 let g:SuperTabDefaultCompletionType = "context"
 let g:Perl_Perltidy  = 'on'
-let g:ctrlp_working_path_mode = 'wr'
+let g:ctrlp_max_files = 0
+let g:ctrlp_working_path_mode = 'r'
 let g:ctrlp_by_filename = 1
-let g:DeleteTrailingWhitespace_Action = 'ask'
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\v[\/](\.\.|\.git|\.idea|node_modules|build|deploy)$',
+    \ 'file': '\v(tags|\.gitignore)$',
+    \ }
 
 " CDC = Change to Directory of Current file
 command CDC cd %:p:h
