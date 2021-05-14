@@ -148,6 +148,7 @@ command TBT TagbarToggle
 map <Leader>t :TagbarToggle<Esc>
 map <Leader>o :!open "%"<Esc>
 map <Leader>q :cclose<Esc>
+map <Leader>c :copen<Esc>
 map <Leader>pt mp1G:%!perltidy<Esc>
 map <Leader>b :b #<Esc>
 map <Leader>rj :!echo %\|awk -F. '{print $1}'\|xargs java<CR>
