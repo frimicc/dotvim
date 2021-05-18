@@ -1,0 +1,7 @@
+let mapleader=","                 "Use comma instead of backslash for commands
+nnoremap <leader><space> :nohlsearch<cr>
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
