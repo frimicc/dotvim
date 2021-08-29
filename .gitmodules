@@ -109,6 +109,3 @@
 [submodule "bundle/ios"]
 	path = bundle/ios
 	url = git@github.com:eraserhd/vim-ios.git
-[submodule "bundle/iCompleteMe"]
-	path = bundle/iCompleteMe
-	url = git@github.com:jerrymarino/iCompleteMe.git
