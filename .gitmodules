@@ -112,3 +112,6 @@
 [submodule "bundle/lsp"]
 	path = bundle/lsp
 	url = https://github.com/prabirshrestha/vim-lsp.git
+[submodule "bundle/kotlin-vim"]
+	path = bundle/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim
