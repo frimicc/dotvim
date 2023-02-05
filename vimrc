@@ -75,7 +75,7 @@ colorscheme slat
 "let g:javaScript_fold = 1      "Set syntax folding for javascript
 
 let g:tagbar_type_markdown = { 'ctagstype' : 'markdown', 'kinds' : [ 'h:headings' ], 'sort' : 0 }
-let g:tagbar_ctags_bin = "/usr/local/bin/ctags"
+let g:tagbar_ctags_bin = "/opt/homebrew/bin/ctags"
 
 "Syntax
 if has("syntax")
