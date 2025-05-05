@@ -10,7 +10,7 @@ call pathogen#infect()
 set modelines=0                   "Prevent modelines security problems
 
 "Indenting & Tabs
-set textwidth=115                  "Wrap at this column
+set textwidth=80                  "Wrap at this column
 set wrap                          "Default to word wrapped text
 set autoindent                    "Preserve current indent on new lines
 set tabstop=4                     "Indentation levels every four columns
@@ -64,7 +64,7 @@ nnoremap <leader><space> :nohlsearch<cr>
 
 " Use modified delek named delak to have easier to read search highlighting
 " Use modified slate named slat to have easier to read search highlighting
-colorscheme slat
+colorscheme delek
 
 "Folding disabled for now, it always folds wrong when opening a new file
 "set foldmethod=indent       "Lines with the same indent level form a fold
