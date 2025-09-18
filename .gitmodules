@@ -115,3 +115,6 @@
 [submodule "bundle/kotlin-vim"]
 	path = bundle/kotlin-vim
 	url = https://github.com/udalov/kotlin-vim
+[submodule "bundle/vindent"]
+	path = bundle/vindent
+	url = https://github.com/jessekelighine/vindent.vim.git
